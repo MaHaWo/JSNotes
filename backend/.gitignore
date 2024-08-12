@@ -1,0 +1,10 @@
+. 
+
+!*.py 
+!*.toml
+!*.md 
+!*.rst
+!*.bat
+!Makefile
+
+.DS_Store
