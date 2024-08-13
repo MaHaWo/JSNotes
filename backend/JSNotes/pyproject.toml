@@ -3,7 +3,7 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "moneybin"
+name = "JSNotes"
 description = "Experimental financial assistant build to get experience with full stack web development"
 readme = "README.md"
 license = { text = "MIT" }
@@ -16,7 +16,7 @@ dependencies = [
 dynamic = ["version"]
 
 [project.scripts]
-moneybin = "moneybin.__main__:main"
+JSNotes = "JSNotes.__main__:main"
 
 [project.optional-dependencies]
 tests = [
@@ -29,7 +29,7 @@ tests = [
 ]
 
 [tool.hatch.version]
-path = "src/moneybin/__init__.py"
+path = "src/JSNotes/__init__.py"
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
