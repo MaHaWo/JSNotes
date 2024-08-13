@@ -11,3 +11,9 @@ describe('dummy test', () => {
 		expect(true).toBeTruthy();
 	});
 });
+
+describe('dummy test2', () => {
+	it('always passes', () => {
+		expect(true).toBeTruthy();
+	});
+});

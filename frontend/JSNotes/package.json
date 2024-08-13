@@ -12,7 +12,7 @@
     "test": "vitest run ./tests/*.test.js",
     "lint": "prettier --check ./src ./tests && eslint ./src ./tests",
     "format": "prettier --write ./src ./tests",
-    "prepare": "cd ../.. && husky frontend/JSNotes/.husky"
+    "prepare": "husky"
   },
   "directories": {
     "test": "tests"
